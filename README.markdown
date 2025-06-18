@@ -143,7 +143,7 @@ Follow these steps to run the project:
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
-For questions or feedback, feel free to open an issue in the repository or contact the project maintainer via GitHub.
+For questions or feedback, feel free to open an issue in the repository.
 
 ---
 *Last updated: June 18, 2025*
