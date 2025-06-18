@@ -139,21 +139,8 @@ Follow these steps to run the project:
 - Save and load trained models for reuse.
 - Add hyperparameter tuning (e.g., learning rate, number of filters).
 
-## Resume Integration
-Include the content of `resume_description.md` in your resume’s “Projects” section:
-> **Handwritten Digit Classification with CNNs**  
-> Developed convolutional neural networks (CNNs) using Python, PyTorch, and TensorFlow to classify handwritten digits from the MNIST dataset. Learned to download and store image data locally for efficient processing, build simple CNN architectures, and train models with supervised learning, achieving ~97–98% test accuracy. Created confusion matrices using Matplotlib and Seaborn to visualize model performance. Gained hands-on experience with machine learning basics and deep learning frameworks. | 06.2025
-
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature-name`).
-3. Commit changes (`git commit -m "Add feature"`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a pull request.
-
 ## License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details (if added).
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 For questions or feedback, feel free to open an issue in the repository or contact the project maintainer via GitHub.
