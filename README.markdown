@@ -85,9 +85,6 @@ Follow these steps to run the project:
    - Generates confusion matrices: `./outputs/confusion_matrix_pytorch.png` and `./outputs/confusion_matrix_tensorflow.png`.
    - Output: Confirms where matrices are saved or warns if predictions are missing.
 
-5. **Use Resume Description**:
-   - Copy the content of `resume_description.md` into your resume’s “Projects” section or portfolio.
-
 ### Example Outputs
 - **Console Output (mnist_pytorch.py)**:
   ```
