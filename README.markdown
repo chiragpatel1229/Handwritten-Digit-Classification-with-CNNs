@@ -8,7 +8,6 @@ This project demonstrates the implementation of Convolutional Neural Networks (C
 - Downloads and stores the MNIST dataset locally in `./mnist_data` to avoid redundant downloads.
 - Generates confusion matrices to visualize model performance using Matplotlib and Seaborn.
 - Organized into distinct scripts for data downloading, training, and visualization.
-- Includes a resume-ready project description highlighting beginner-level ML skills.
 
 **Skills Demonstrated**:
 - Machine Learning (Supervised Learning, CNNs)
