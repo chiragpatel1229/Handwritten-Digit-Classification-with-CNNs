@@ -1,7 +1,7 @@
 # Handwritten Digit Classification with CNNs
 
 ## Project Overview
-This project demonstrates the implementation of Convolutional Neural Networks (CNNs) to classify handwritten digits (0–9) from the MNIST dataset using two popular deep learning frameworks: **PyTorch** and **TensorFlow**. Designed as a beginner-friendly machine learning project, it showcases fundamental skills in data preprocessing, model building, training, evaluation, and visualization. The MNIST dataset is stored locally for efficient processing, and the project is structured into separate scripts for modularity and clarity.
+This project demonstrates the implementation of Convolutional Neural Networks (CNNs) to classify handwritten digits (0–9) from the MNIST dataset using two popular deep learning frameworks: **PyTorch** and **TensorFlow**. This machine learning project demonstrates fundamental skills in data preprocessing, model building, training, evaluation, and visualization. The MNIST dataset is stored locally for efficient processing, and the project is structured into separate scripts for modularity and clarity.
 
 **Key Features**:
 - Implements CNNs in both PyTorch and TensorFlow, achieving ~97–98% test accuracy.
