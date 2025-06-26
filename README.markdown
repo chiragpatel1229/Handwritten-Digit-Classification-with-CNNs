@@ -35,7 +35,6 @@ The repository is organized as follows:
 - **`mnist_pytorch.py`**: Loads MNIST from `./mnist_data`, trains a simple CNN using PyTorch, evaluates performance, and saves predictions to `./outputs`.
 - **`mnist_tensorflow.py`**: Loads MNIST from `./mnist_data`, trains a simple CNN using TensorFlow, evaluates performance, and saves predictions to `./outputs`.
 - **`visualize_results.py`**: Loads predictions from `./outputs` and generates confusion matrices, saved as `.png` files in `./outputs`.
-- **`resume_description.md`**: A concise project description for inclusion in a resume or portfolio.
 - **`mnist_data/`**: Contains MNIST dataset files (e.g., `mnist.npz` for TensorFlow, raw/processed files for PyTorch).
 - **`outputs/`**: Stores model predictions (`.npy` files) and confusion matrices (`.png` files).
 
