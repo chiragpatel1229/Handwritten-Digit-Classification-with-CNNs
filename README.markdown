@@ -9,7 +9,7 @@ This project demonstrates the implementation of Convolutional Neural Networks (C
 - Generates confusion matrices to visualize model performance using Matplotlib and Seaborn.
 - Organized into distinct scripts for data downloading, training, and visualization.
 
-**Skills Demonstrated**:
+**Tech Stack**:
 - Machine Learning (Supervised Learning, CNNs)
 - Python, PyTorch, TensorFlow
 - Data Preprocessing and Local Storage
@@ -18,18 +18,6 @@ This project demonstrates the implementation of Convolutional Neural Networks (C
 
 **Completion Date**: June 2025
 
-## Project Structure
-The repository is organized as follows:
-```
-├── mnist_data/                 # Folder storing the MNIST dataset
-├── outputs/                    # Folder for predictions and confusion matrices
-├── download_mnist.py           # Script to download and store MNIST dataset
-├── mnist_pytorch.py            # PyTorch implementation for training and evaluation
-├── mnist_tensorflow.py         # TensorFlow implementation for training and evaluation
-├── visualize_results.py        # Script to generate confusion matrices
-└── README.md                   # Project documentation (this file)
-```
-
 ### File Descriptions
 - **`download_mnist.py`**: Downloads the MNIST dataset using both PyTorch and TensorFlow, storing it in `./mnist_data` for fast access in training scripts.
 - **`mnist_pytorch.py`**: Loads MNIST from `./mnist_data`, trains a simple CNN using PyTorch, evaluates performance, and saves predictions to `./outputs`.
@@ -37,17 +25,6 @@ The repository is organized as follows:
 - **`visualize_results.py`**: Loads predictions from `./outputs` and generates confusion matrices, saved as `.png` files in `./outputs`.
 - **`mnist_data/`**: Contains MNIST dataset files (e.g., `mnist.npz` for TensorFlow, raw/processed files for PyTorch).
 - **`outputs/`**: Stores model predictions (`.npy` files) and confusion matrices (`.png` files).
-
-## Prerequisites
-To run this project, ensure you have the following installed:
-- **Python**: Version 3.8 or higher
-- **Libraries**:
-  - PyTorch and torchvision
-  - TensorFlow
-  - NumPy
-  - Matplotlib
-  - Seaborn
-  - Scikit-learn
 
 ## Project Details
 ### Dataset
@@ -68,17 +45,6 @@ To run this project, ensure you have the following installed:
 - **Confusion Matrices**: Show prediction accuracy for each digit, saved as PNGs in `./outputs`.
 - **Tools**: Matplotlib and Seaborn for clear, professional visualizations.
 
-## Tips for Beginners
-- **Run in Order**: Execute `download_mnist.py` before training scripts to ensure data is available.
-- **Check Outputs**: Inspect `./outputs` for predictions and visualizations.
-- **Experiment**: Try changing the batch size (e.g., 32) or epochs (e.g., 5) in `mnist_pytorch.py` or `mnist_tensorflow.py` to see their impact.
-- **Learn Concepts**:
-  - **Normalization**: Scales pixel values for better model performance.
-  - **Convolution**: Detects patterns like edges in images.
-  - **Dropout**: Reduces overfitting by ignoring some neurons during training.
-- **Debugging**: If errors occur, verify library installations and ensure `./mnist_data` exists.
-- **Jupyter Notebook**: Convert scripts to a notebook for step-by-step learning (ask for help if needed).
-
 ## Future Improvements
 - Add data augmentation (e.g., rotation, scaling) to improve accuracy.
 - Experiment with deeper CNN architectures or different datasets (e.g., Fashion-MNIST).
@@ -87,9 +53,6 @@ To run this project, ensure you have the following installed:
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Contact
-For questions or feedback, feel free to open an issue in the repository.
 
 ---
 *Last updated: June 18, 2025*
