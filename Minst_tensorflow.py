@@ -1,7 +1,3 @@
-# Handwritten Digit Classification using TensorFlow
-# Loads MNIST data from local folder and trains a simple CNN
-
-# Import necessary libraries
 import tensorflow as tf  # TensorFlow for building the neural network
 import numpy as np  # For saving predictions
 import os  # For handling directories
