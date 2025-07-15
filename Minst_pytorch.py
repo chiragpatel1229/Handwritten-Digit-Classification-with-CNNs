@@ -1,7 +1,3 @@
-# Handwritten Digit Classification using PyTorch
-# Loads MNIST data from local folder and trains a simple CNN
-
-# Import necessary libraries
 import torch  # PyTorch for building and training the neural network
 import torch.nn as nn  # Neural network modules
 import torch.optim as optim  # Optimizers like Adam
