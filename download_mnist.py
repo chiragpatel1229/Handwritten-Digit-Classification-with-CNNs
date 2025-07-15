@@ -1,6 +1,3 @@
-# Script to download and store the MNIST dataset locally
-# This ensures fast access for training scripts by avoiding repeated downloads
-
 import os  # For handling directories
 import torchvision  # For accessing MNIST in PyTorch
 import torchvision.transforms as transforms  # For preprocessing
