@@ -1,7 +1,3 @@
-# Visualization Script for MNIST Classification
-# Loads predictions from PyTorch and TensorFlow and creates confusion matrices
-
-# Import necessary libraries
 import numpy as np  # For loading predictions
 import matplotlib.pyplot as plt  # For plotting
 import seaborn as sns  # For confusion matrices
